@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Greys Manosalva - Fondo de Inversión Vida</title>
+</head>
+
+<body onload="funcion1(); funcion2(); funcion3();">
+    <div id="contenido" style="display: none;">
+    
+<header>
+    <h2>Greys Manosalva</h2>
+    <a href="index.html">Inicio</a>
+</header>
+<br>
+<center>
+  <table border="1">
+  <th style="background-color: black; color: white;">SUB-TOTAL</th>
+  <th style="background-color: blue; color: white;">INTERÉS</th>
+  <th style="background-color: black; color: white;">TOTAL</th></tr>
+      <tr>
+      <td style="color: blue;"><span id="Bs-subtotal"></span></td>
+      <td style="color: blue;"><span id="Bs-interes"></span></td>
+      <td style="color: blue;"><span id="Bs-total"></span></td>
+      </tr>
+      <tr>
+      <td style="color: blue;"><span id="$-subtotal"></span></td>
+      <td style="color: blue;"><span id="$-interes"></span></td>
+      <td style="color: blue;"><span id="$-total"></span></td>
+      </tr>
+      <tr>
+      <td style="color: blue;"><span id="T-subtotal"></span></td>
+      <td style="color: blue;"><span id="T-interes"></span></td>
+      <td style="color: blue;"><span id="T-total"></span></td>
+      </tr>
+      </table></center>
+    
+    <p><b>Inversión Semanal:</b></p>
+    
+    <center>
+    <table border="1">
+      
+      <th colspan="5" style="color: blue;">ABRIL</th>
+      <tr>
+      <th>S-15</th>
+      <th>S-16</th>
+      <th>S-17</th>
+      <th>S-18</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-15"></span></h6></td>
+    <td><h6><span id="semanaBs-16"></span></h6></td>
+    <td><h6><span id="semanaBs-17"></span></h6></td>
+    <td><h6><span id="semanaBs-18"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-abril"></span></h6></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-15"></span></h6></td>
+    <td><h6><span id="semana$-16"></span></h6></td>
+    <td><h6><span id="semana$-17"></span></h6></td>
+    <td><h6><span id="semana$-18"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-abril"></span></h6></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-15"></span></h6></td>
+    <td><h6><span id="semanaT-16"></span></h6></td>
+    <td><h6><span id="semanaT-17"></span></h6></td>
+    <td><h6><span id="semanaT-18"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-abril"></span></h6></th>
+  </tr>
+  </table>
+  </center>
+  <br>
+  
+  <center>
+    <table border="1">
+      
+      <th colspan="5" style="color: blue;">MAYO</th>
+      <tr>
+      <th>S-19</th>
+      <th>S-20</th>
+      <th>S-21</th>
+      <th>S-22</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-19"></span></h6></td>
+    <td><h6><span id="semanaBs-20"></span></h6></td>
+    <td><h6><span id="semanaBs-21"></span></h6></td>
+    <td><h6><span id="semanaBs-22"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-mayo"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-19"></span></h6></td>
+    <td><h6><span id="semana$-20"></span></h6></td>
+    <td><h6><span id="semana$-21"></span></h6></td>
+    <td><h6><span id="semana$-22"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-mayo"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-19"></span></h6></td>
+    <td><h6><span id="semanaT-20"></span></h6></td>
+    <td><h6><span id="semanaT-21"></span></h6></td>
+    <td><h6><span id="semanaT-22"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-mayo"></h6></span></th>
+  </tr>
+  </table>
+  </center>
+  <br>
+    
+    <center>
+    <table border="1">
+      
+      <th colspan="6" style="color: blue;">JUNIO</th>
+      <tr>
+      <th>S-23</th>
+      <th>S-24</th>
+      <th>S-25</th>
+      <th>S-26</th>
+      <th>S-27</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-23"></span></h6></td>
+    <td><h6><span id="semanaBs-24"></span></h6></td>
+    <td><h6><span id="semanaBs-25"></span></h6></td>
+    <td><h6><span id="semanaBs-26"></span></h6></td>
+    <td><h6><span id="semanaBs-27"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="totalBs-junio"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-23"></span></h6></td>
+    <td><h6><span id="semana$-24"></span></h6></td>
+    <td><h6><span id="semana$-25"></span></h6></td>
+    <td><h6><span id="semana$-26"></span></h6></td>
+    <td><h6><span id="semana$-27"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="total$-junio"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-23"></span></h6></td>
+    <td><h6><span id="semanaT-24"></span></h6></td>
+    <td><h6><span id="semanaT-25"></span></h6></td>
+    <td><h6><span id="semanaT-26"></span></h6></td>
+    <td><h6><span id="semanaT-27"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="totalT-junio"></h6></span></th>
+  </tr>
+  </table>
+  </center>
+  <br>
+  
+  <center>
+  <table border="1">
+  <th colspan="5" style="color: blue;">JULIO</th>
+      <tr>
+      <th>S-28</th>
+      <th>S-29</th>
+      <th>S-30</th>
+      <th>S-31</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-28"></span></h6></td>
+    <td><h6><span id="semanaBs-29"></span></h6></td>
+    <td><h6><span id="semanaBs-30"></span></h6></td>
+    <td><h6><span id="semanaBs-31"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-julio"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-28"></span></h6></td>
+    <td><h6><span id="semana$-29"></span></h6></td>
+    <td><h6><span id="semana$-30"></span></h6></td>
+    <td><h6><span id="semana$-31"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-julio"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-28"></span></h6></td>
+    <td><h6><span id="semanaT-29"></span></h6></td>
+    <td><h6><span id="semanaT-30"></span></h6></td>
+    <td><h6><span id="semanaT-31"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-julio"></h6></span></th>
+  </tr>
+  </table></center>
+  <br>
+  
+    <center>
+  <table border="1">
+  <th colspan="6" style="color: blue;">AGOSTO</th>
+      <tr>
+      <th>S-32</th>
+      <th>S-33</th>
+      <th>S-34</th>
+      <th>S-35</th>
+      <th>S-36</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-32"></span></h6></td>
+    <td><h6><span id="semanaBs-33"></span></h6></td>
+    <td><h6><span id="semanaBs-34"></span></h6></td>
+    <td><h6><span id="semanaBs-35"></span></h6></td>
+    <td><h6><span id="semanaBs-36"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-agosto"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-32"></span></h6></td>
+    <td><h6><span id="semana$-33"></span></h6></td>
+    <td><h6><span id="semana$-34"></span></h6></td>
+    <td><h6><span id="semana$-35"></span></h6></td>
+    <td><h6><span id="semana$-36"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-agosto"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-32"></span></h6></td>
+    <td><h6><span id="semanaT-33"></span></h6></td>
+    <td><h6><span id="semanaT-34"></span></h6></td>
+    <td><h6><span id="semanaT-35"></span></h6></td>
+    <td><h6><span id="semanaT-36"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-agosto"></h6></span></th>
+  </tr>
+  </table></center>
+  <br>
+  
+  <center>
+  <table border="1">
+  <th colspan="5" style="color: blue;">SEPTIEMBRE</th>
+      <tr>
+      <th>S-37</th>
+      <th>S-38</th>
+      <th>S-39</th>
+      <th>S-40</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-37"></span></h6></td>
+    <td><h6><span id="semanaBs-38"></span></h6></td>
+    <td><h6><span id="semanaBs-39"></span></h6></td>
+    <td><h6><span id="semanaBs-40"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="totalBs-septiembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-37"></span></h6></td>
+    <td><h6><span id="semana$-38"></span></h6></td>
+    <td><h6><span id="semana$-39"></span></h6></td>
+    <td><h6><span id="semana$-40"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="total$-septiembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-37"></span></h6></td>
+    <td><h6><span id="semanaT-38"></span></h6></td>
+    <td><h6><span id="semanaT-39"></span></h6></td>
+    <td><h6><span id="semanaT-40"></span></h6></td>
+    <th colspan="5" style="color: #ff5e00;"><h6><span id="totalT-septiembre"></h6></span></th>
+  </tr>
+  </table></center>
+  <br>
+    
+    <center>
+  <table border="1">
+  <th colspan="5" style="color: blue;">OCTUBRE</th>
+      <tr>
+      <th>S-41</th>
+      <th>S-42</th>
+      <th>S-43</th>
+      <th>S-44</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-41"></span></h6></td>
+    <td><h6><span id="semanaBs-42"></span></h6></td>
+    <td><h6><span id="semanaBs-43"></span></h6></td>
+    <td><h6><span id="semanaBs-44"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-octubre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-41"></span></h6></td>
+    <td><h6><span id="semana$-42"></span></h6></td>
+    <td><h6><span id="semana$-43"></span></h6></td>
+    <td><h6><span id="semana$-44"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-octubre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-41"></span></h6></td>
+    <td><h6><span id="semanaT-42"></span></h6></td>
+    <td><h6><span id="semanaT-43"></span></h6></td>
+    <td><h6><span id="semanaT-44"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-octubre"></h6></span></th>
+  </tr>
+  </table></center>
+  <br>
+    
+    <center>
+  <table border="1">
+  <th colspan="5" style="color: blue;">NOVIEMBRE</th>
+      <tr>
+      <th>S-45</th>
+      <th>S-46</th>
+      <th>S-47</th>
+      <th>S-48</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-45"></span></h6></td>
+    <td><h6><span id="semanaBs-46"></span></h6></td>
+    <td><h6><span id="semanaBs-47"></span></h6></td>
+    <td><h6><span id="semanaBs-48"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-noviembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-45"></span></h6></td>
+    <td><h6><span id="semana$-46"></span></h6></td>
+    <td><h6><span id="semana$-47"></span></h6></td>
+    <td><h6><span id="semana$-48"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-noviembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-45"></span></h6></td>
+    <td><h6><span id="semanaT-46"></span></h6></td>
+    <td><h6><span id="semanaT-47"></span></h6></td>
+    <td><h6><span id="semanaT-48"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-noviembre"></h6></span></th>
+  </tr>
+  </table></center>
+  <br>
+  
+  <center>
+    <table border="1">
+      
+      <th colspan="5" style="color: blue;">DICIEMBRE</th>
+      <tr>
+      <th>S-49</th>
+      <th>S-50</th>
+      <th>S-51</th>
+      <th>S-52</th>
+      <th><h6>TOTAL</h6></th>
+      </tr>
+      <tr>
+    <td><h6><span id="semanaBs-49"></span></h6></td>
+    <td><h6><span id="semanaBs-50"></span></h6></td>
+    <td><h6><span id="semanaBs-51"></span></h6></td>
+    <td><h6><span id="semanaBs-52"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalBs-diciembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semana$-49"></span></h6></td>
+    <td><h6><span id="semana$-50"></span></h6></td>
+    <td><h6><span id="semana$-51"></span></h6></td>
+    <td><h6><span id="semana$-52"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="total$-diciembre"></h6></span></th>
+  </tr>
+  <tr>
+    <td><h6><span id="semanaT-49"></span></h6></td>
+    <td><h6><span id="semanaT-50"></span></h6></td>
+    <td><h6><span id="semanaT-51"></span></h6></td>
+    <td><h6><span id="semanaT-52"></span></h6></td>
+    <th colspan="4" style="color: #ff5e00;"><h6><span id="totalT-diciembre"></h6></span></th>
+  </tr>
+  </table>
+  </center>
+  <br>
+  
+  
+    
+    <!-- Otros elementos de la página -->
+    
+    
+    
+    
+    <br>
+<footer>
+  Fondo de Inversión Vida © 2025 - <a href="https://wa.me/+584262840546">Contáctame por WhatsApp</a>
+</footer>
+
+    </div>
+    <script src="greys.js"></script>
+    
+</body>
+</html>
