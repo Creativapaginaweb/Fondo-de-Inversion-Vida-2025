@@ -1,7 +1,7 @@
 function funcion1() {
     // Datos de inversión para Bs (ejemplo)
     const inversionesBs = {
-        semana15: 25,
+        semana15: 0,
         semana16: 0,
         semana17: 0,
         semana18: 0,
