@@ -129,7 +129,8 @@ function funcion1() {
     document.getElementById('Bs-total').appendChild(crearNodoTexto(totalFinalBs));
     // Password check (replace with server-side authentication)
     const password = prompt("Ingrese la contraseña:");
-    if (password !== "20124815emml") {
+    if (password !== "20124815emml")
+    if (password !== "Mano9854!") {
         alert("Contraseña incorrecta. Acceso denegado.");
         return; // Prevent further code execution if password is wrong
     }
