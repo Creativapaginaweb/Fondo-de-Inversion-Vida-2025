@@ -129,7 +129,8 @@ function funcion1() {
     document.getElementById('Bs-total').appendChild(crearNodoTexto(totalFinalBs));
     // Password check (replace with server-side authentication)
     const password = prompt("Ingrese la contraseña:");
-    if (password !== "20124815emml") {
+    if (password !== "20124815emml")
+    if (password !== "Mano9854!") {
         alert("Contraseña incorrecta. Acceso denegado.");
         return; // Prevent further code execution if password is wrong
     }
@@ -271,9 +272,9 @@ function funcion2() {
 function funcion3() {
   // Datos de inversión para T (ejemplo)
   const inversionesT = {
-    semana15: 0,
-    semana16: 0,
-    semana17: 0,
+    semana15: 10,
+    semana16: 10,
+    semana17: 10,
     semana18: 0,
     semana19: 0,
     semana20: 0,
