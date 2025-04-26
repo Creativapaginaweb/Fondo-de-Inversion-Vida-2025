@@ -274,7 +274,7 @@ function funcion3() {
   const inversionesT = {
     semana15: 6.92,
     semana16: 6.91,
-    semana17: 0,
+    semana17: 6.80,
     semana18: 0,
     semana19: 0,
     semana20: 0,
