@@ -359,9 +359,21 @@ function funcion3() {
   const totalInversionT = calcularTotalInversion(inversionesT);
   console.log(`Total de inversión de T: ${totalInversionT}`);
   function crearNodoTexto(valor) {
-    const nodoTexto = document.createTextNode(`T ${valor}`);
-    return nodoTexto;
+  let texto;
+  if (typeof valor === 'number') {
+    texto = `T ${valor.toFixed(2)}`;
+  } else {
+    // Intentar convertir a número para formatear
+    const num = Number(valor);
+    if (!isNaN(num)) {
+      texto = `T ${num.toFixed(2)}`;
+    } else {
+      texto = `T ${valor}`; // Si no es número, mostrar tal cual
+    }
   }
+  return document.createTextNode(texto);
+}
+
   // Función para calcular el total de inversión por mes
   function calcularTotalMes(inversiones, inicioSemana, finSemana) {
     const valoresMes = Object.values(inversiones).slice(inicioSemana - 15, finSemana - 14);
