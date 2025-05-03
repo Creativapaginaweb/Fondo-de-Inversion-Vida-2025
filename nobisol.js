@@ -141,7 +141,7 @@ function funcion2() {
   // Datos de inversión para $ (ejemplo)
   const inversiones$ = {
     semana15: 0,
-    semana16: 0,
+    semana16: 10,
     semana17: 0,
     semana18: 0,
     semana19: 0,
