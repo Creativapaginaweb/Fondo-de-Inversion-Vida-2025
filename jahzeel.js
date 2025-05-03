@@ -276,7 +276,7 @@ function funcion3() {
     semana16: 6.91,
     semana17: 6.80,
     semana18: 6.49,
-    semana19: 0,
+    semana19: 9.74,
     semana20: 0,
     semana21: 0,
     semana22: 0,
