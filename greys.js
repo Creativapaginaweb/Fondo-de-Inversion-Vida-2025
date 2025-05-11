@@ -142,9 +142,9 @@ function funcion2() {
   const inversiones$ = {
     semana15: 15,
     semana16: 15,
-    semana17: 0,
-    semana18: 0,
-    semana19: 0,
+    semana17: 10,
+    semana18: 10,
+    semana19: 20,
     semana20: 0,
     semana21: 0,
     semana22: 0,
