@@ -271,11 +271,11 @@ function funcion2() {
 function funcion3() {
   // Datos de inversión para T (ejemplo)
   const inversionesT = {
-    semana15: 0,
-    semana16: 0,
-    semana17: 0,
-    semana18: 0,
-    semana19: 0,
+    semana15: 2.50,
+    semana16: 2.50,
+    semana17: 2.50,
+    semana18: 2.50,
+    semana19: 2.55,
     semana20: 0,
     semana21: 0,
     semana22: 0,
