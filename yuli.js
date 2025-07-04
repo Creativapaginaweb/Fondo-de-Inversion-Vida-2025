@@ -285,7 +285,7 @@ function funcion3() {
     semana25: 10,
     semana26: 10,
     semana27: 10,
-    semana28: 0,
+    semana28: 10,
     semana29: 0,
     semana30: 0,
     semana31: 0,
