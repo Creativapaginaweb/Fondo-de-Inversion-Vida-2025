@@ -163,7 +163,7 @@ function funcion2() {
     semana35: 0,
     semana36: 9,
     semana37: 0,
-    semana38: 0,
+    semana38: 10,
     semana39: 0,
     semana40: 0,
     semana41: 0,
