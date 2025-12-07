@@ -304,10 +304,10 @@ function funcion3() {
     semana44: 25,
     semana45: 25,
     semana46: 25,
-    semana47: 0,
-    semana48: 0,
-    semana49: 0,
-    semana50: 0,
+    semana47: 25,
+    semana48: 25,
+    semana49: 25,
+    semana50: 25,
     semana51: 0,
     semana52: 0
     // ... Agrega más semanas
