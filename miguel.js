@@ -308,8 +308,8 @@ function funcion3() {
     semana48: 25,
     semana49: 25,
     semana50: 25,
-    semana51: 0,
-    semana52: 0
+    semana51: 25,
+    semana52: 25,
     // ... Agrega más semanas
   };
   // Función para calcular el total de inversión
